@@ -1,28 +1,93 @@
-h1 {
+
+h1{
       text-align: center;
+      
 }
 
-#p1 {
-    background-color: yellow;
+h2{
+    padding: 0px;
 }
 
-#p2{
-    background-color: blueviolet;
+#Container{
+    position: relative;
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+    
+
 }
 
-#p3{
-    background-color: darkgreen;
+.divmenu{
+    box-sizing: border-box;
+    background-color: grey;
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    
 }
 
+#ChickenMenu{
+  position: relative; 
+  top: 0%;
+  left: 0%;
+}
 
+#BeefMenu{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+#SushiMenu{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
 #Chicken {
+    
     background-color: blue;
+    width: 90px;
+    height: 30px;
+    position: relative;
+    left: 200px;
+    top: 0px;
+    border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    border-top: 0px;
 }
 
 #Beef {
     background-color: red;
+    width: 55px;
+    height: 30px;
+    position: relative;
+    left: 235px;
+    top: 0px;
+    border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    border-top: 0px;
+    color: white;
 }
+    
+
+
 
 #Sushi{
     background-color: yellow;
+    width: 65px;
+    height: 30px;
+    position: relative;
+    right: -225px;
+    top: 0px;
+    border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+    border-top: 0px;
 }
+
+
