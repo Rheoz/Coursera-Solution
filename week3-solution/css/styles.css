@@ -22,3 +22,26 @@
   #nav-list a:hover {
     background: #E7E7E7;
   }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  #MainText{
+      box-sizing: border-box;
+      display: flex;
+      background-color: gray;
+      margin: 2%;
+      width: 100%;
+      position: relative;
+  }
+
+  #MainText h3{
+    
+    box-sizing: border-box;
+    text-align: center;
+  }
